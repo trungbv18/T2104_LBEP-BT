@@ -7,6 +7,7 @@ int main(){
 	if(n<=1){
 		printf("%d ko la so nguyen to",n);
 	}
+	else{
 	for(i=2;i<n;i++){
 	if(n%i==0){
 	count++;
@@ -18,6 +19,6 @@ int main(){
 	else{
 		printf("%d la so nguyen to", n);
 	}
-
+	}
 	
 }
